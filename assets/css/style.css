@@ -5,6 +5,7 @@
   height: 70px;
   margin-right: 150px;
   margin-left: -40px;
+  margin-bottom: 20px;
 }
 
 .navbar-nav a {
@@ -58,13 +59,13 @@
     height: fit-content;
   }
 
-  .toggler-img-icon{
+  .toggler-img-icon {
     width: 50px !important;
-    height:40px !important;
+    height: 40px !important;
     margin-right: 5px !important;
     border: none;
   }
-  .navbar-toggler:focus{
+  .navbar-toggler:focus {
     box-shadow: none;
   }
 
@@ -90,6 +91,74 @@
   background-color: #eaf3ef;
 }
 
+.header-home h2 {
+  font-size: 50px !important;
+  margin-top: 40px !important;
+  margin-bottom: 40px !important;
+}
+
+.header-home h6 {
+  font-size: 25px !important;
+  text-transform: none !important;
+}
+
+.header-home p {
+  font-size: 18px !important;
+  margin-top: -10px !important;
+}
+
+.header-home a {
+  font-size: 24px;
+  margin-top: 30px;
+  border-radius: 12px;
+}
+
+@media only screen and (max-width: 1400px) {
+  .header-home h2 {
+    font-size: 40px !important;
+    text-align: left;
+    margin-top: 20px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .header-home h6 {
+    font-size: 22px !important;
+    text-align: left;
+  }
+
+  .header-home p {
+    margin-top: 0px !important;
+    text-align: left;
+  }
+
+  .header-home a {
+    font-size: 24px;
+    margin-top: 50px;
+    border-radius: 12px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .header-home {
+    margin-bottom: -200px !important;
+  }
+
+  .header-home p {
+    font-size: 16px !important;
+  }
+
+  .header-home a {
+    margin-top: 0px !important;
+    display: block !important;
+    margin-right: auto !important;
+    margin-top: 30px !important;
+  }
+
+  .header-home img {
+    margin-top: -40px;
+  }
+}
+
 /* End header home section  */
 
 /* Start Who home section  */
@@ -98,21 +167,51 @@
   background-image: url("/assets/images/background.jpg") !important;
   background-size: cover !important;
   background-position: center !important;
+  height: 700px !important;
 }
 
 .who-content h2 {
   color: #830a4d !important;
+  text-align: left;
+  font-size: 34px !important;
 }
 
 .who-content h4 {
   color: #eaf3ef;
+  font-size: 22px;
 }
 
-.who-content p {
-  color: #eaf3ef !important;
+@media only screen and (max-width: 991px) {
+  .Who-home {
+    height: fit-content !important;
+    animation: none !important;
+    transition: none !important;
+  }
+
+  .who-content h2 {
+    text-align: left !important;
+  }
+
+  .who-content h4 {
+    color: #eaf3ef;
+    font-size: 18px;
+  }
+
+  .wow,
+  .fadeInLeft,
+  .fadeInRight,
+  .animated {
+    animation: none !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
 }
 
 /* End Who home section  */
+
+/* Start What home section  */
+
+/* End What home section  */
 
 /* Start product home section  */
 .product-home {
@@ -121,14 +220,39 @@
 
 .product-home h1 {
   color: #31694c;
+  margin-top: 100px !important;
+  margin-bottom: 30px !important;
+}
+
+.product-home p {
+  font-size: 22px;
 }
 
 .Carousel-img {
   background-color: #eaf3ef;
+  width: 120px !important;
   border-radius: 100px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 80px;
+  margin-bottom: 100px;
 }
+@media only screen and (max-width: 776px) {
+  .product-home h1 {
+    color: #31694c;
+    margin-top: 100px !important;
+    margin-bottom: 30px !important;
+  }
+
+  .product-home p {
+    font-size: 18px;
+  }
+
+  .Carousel-img {
+    width: 80px !important;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+
 /* End product home section  */
 
 /* Start how home section  */
@@ -139,6 +263,10 @@
 
 .how-home h1 {
   color: #31694c;
+  margin-top: 40px;
+}
+.how-home h2 {
+  font-size: 22px !important;
 }
 
 .how-home img {
@@ -148,19 +276,94 @@
 
 .how-home h3 {
   color: #830a4d;
+  font-size: 22px;
 }
 
+.how-home p {
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 776px) {
+  .how-home h1 {
+    margin-top: 45px;
+  }
+  .how-home h2 {
+    font-size: 18px !important;
+    margin-top: 5px;
+  }
+
+  .how-home img {
+    width: 270px;
+    height: 480px;
+  }
+
+  .how-home h3 {
+    font-size: 18px;
+  }
+
+  .how-home p {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+}
 /* End how home section  */
 
 /* Start message home section  */
 
 .message-home {
   background-color: #31694c !important;
-  height: 761px;
+  height: 762px;
 }
-
 .message-home iframe {
   border-radius: 20px;
+}
+
+@media only screen and (max-width: 1400px) and (min-width: 991px) {
+  .message-home iframe {
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .message-home {
+    height: fit-content !important;
+  }
+
+  .message-home iframe {
+    width: 100%;
+  }
+
+  .contact-form {
+    width: 100% !important;
+  }
+  
+    footer .social {
+        margin-top: 20px !important;
+    }
+  }
+  @media only screen and (max-width: 776px) {
+    .message-home {
+      height: fit-content;
+    }
+    .message-home iframe {
+      margin-top: 50px;
+      
+    }
+    
+    #contact {
+      width: 100% !important;
+    }
+    
+  .contact-form {
+    padding: 0px !important;
+    margin-top: -7px;
+  }
+
+  
+    footer .social {
+        text-align: center;
+        margin-top: -70px !important;
+    }
 }
 
 /* End message home section  */

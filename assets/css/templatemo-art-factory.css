@@ -1285,7 +1285,7 @@ footer .social {
 footer .social li {
   margin: 0px 5px;
   display: inline-block;
-}
+} 
 
 footer .social li a {
   color: #31694c;
@@ -1310,7 +1310,7 @@ footer .social li a:hover {
 }
 
 footer .copyright {
-  margin-top: 10px;
+  margin-top: 25px;
   font-weight: 400;
   font-size: 15px;
   color: #eaf3ef;
@@ -1324,7 +1324,7 @@ footer .copyright {
   }
   footer .social {
     text-align: center;
-    margin-top: 15px;
+    margin-top: -70px;
   }
 }
 
