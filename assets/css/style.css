@@ -1,0 +1,174 @@
+/* Start navbar home section  */
+
+.navbar-home img {
+  width: 80px;
+  height: 70px;
+  margin-right: 150px;
+  margin-left: -40px;
+}
+
+.navbar-nav a {
+  color: black !important;
+  margin-right: 20px;
+}
+
+.navbar-nav a:hover {
+  color: #31694c !important;
+}
+
+.dropdown-home {
+  margin-left: 180px;
+}
+
+.dropdown-toggle:hover {
+  color: #31694c;
+}
+
+.drop-content {
+  background-color: #eaf3ef;
+  border-radius: 20px;
+}
+
+.drop-content a:nth-of-type(1) {
+  text-align: right;
+}
+
+.drop-content a:nth-of-type(2) {
+  text-align: left;
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1400px) {
+  .navbar-home img {
+    margin-right: 50px;
+    margin-left: -40px;
+  }
+
+  .navbar-nav a {
+    margin-right: 0px;
+    font-size: 14px;
+  }
+
+  .dropdown-home {
+    margin-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .navbar-home {
+    height: fit-content;
+  }
+
+  .toggler-img-icon{
+    width: 50px !important;
+    height:40px !important;
+    margin-right: 5px !important;
+    border: none;
+  }
+  .navbar-toggler:focus{
+    box-shadow: none;
+  }
+
+  .navbar-nav a {
+    margin-right: 0px;
+  }
+
+  .navbar-nav a:hover {
+    background-color: #eaf3ef;
+    width: 100%;
+  }
+
+  .dropdown-home {
+    margin-left: 0px;
+  }
+}
+
+/* End navbar home section  */
+
+/* Start header home section  */
+
+.header-home {
+  background-color: #eaf3ef;
+}
+
+/* End header home section  */
+
+/* Start Who home section  */
+
+.Who-home {
+  background-image: url("/assets/images/background.jpg") !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.who-content h2 {
+  color: #830a4d !important;
+}
+
+.who-content h4 {
+  color: #eaf3ef;
+}
+
+.who-content p {
+  color: #eaf3ef !important;
+}
+
+/* End Who home section  */
+
+/* Start product home section  */
+.product-home {
+  background-color: #fafafa;
+}
+
+.product-home h1 {
+  color: #31694c;
+}
+
+.Carousel-img {
+  background-color: #eaf3ef;
+  border-radius: 100px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/* End product home section  */
+
+/* Start how home section  */
+
+.how-home {
+  background-color: #fafafa;
+}
+
+.how-home h1 {
+  color: #31694c;
+}
+
+.how-home img {
+  width: 300px;
+  height: 520px;
+}
+
+.how-home h3 {
+  color: #830a4d;
+}
+
+/* End how home section  */
+
+/* Start message home section  */
+
+.message-home {
+  background-color: #31694c !important;
+  height: 761px;
+}
+
+.message-home iframe {
+  border-radius: 20px;
+}
+
+/* End message home section  */
+
+/* Start footer home section  */
+.footer-home {
+  background-color: #31694c;
+  margin-bottom: 70px !important;
+}
+
+/* End footer home section  */
